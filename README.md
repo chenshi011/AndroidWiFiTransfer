@@ -4,9 +4,9 @@
  * 网页端采用jQuery实现，文件上传采用XmlHttpRequest、jquery.form、ajax三种方式混合使用的。
 
 ## 手机端截图
-<img src="./screenshot/phone.png"/>
+<img src="phone.png"/>
 ## 网页版截图
-<img src="./screenshot/web.gif"/>
+<img src="web.gif"/>
 
 
 ## TODO
