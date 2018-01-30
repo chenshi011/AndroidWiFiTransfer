@@ -56,7 +56,7 @@
 <img src="phone.png"/>
 ## 网页版截图
 <img src="web.gif"/>
-
-
-## TODO
-因使用gradle配置的时候还没最新的NanoHTTPD，所以使用了eclipse编译。使用HTML5浏览器文件进度是前端xhr的进度，使用非HTML5浏览器（如IE7/IE8/IE9）时候，文件上传进度是根据ajax获取的后台进度。
+## 说明
+基于NanoHTTPD做了细微的更改，都是添加文件的方式，没有直接更改库文件。
+使用HTML5浏览器，文件进度是前端xhr的进度（支持批量上传）；
+使用非HTML5浏览器（如IE7/IE8/IE9）时候，文件上传进度是根据ajax获取的后台进度（不支持批量上传）。
